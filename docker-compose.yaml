@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  sankalpwebapp:
+    image: sankalpmobiweb:appv1
+    build: .
+    container_name: sankalpwebc1
+    ports:
+      - 2678:80
+    restart: always
